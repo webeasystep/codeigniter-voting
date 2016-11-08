@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>مؤسسة التكنولوجيا الماسية</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" title="style" media="screen" href="css/style.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" media="screen" href="css/ie.css"><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" type="text/css" media="screen" href="css/ie7.css"><![endif]-->
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- s3Slider jQuery plugin - Our works slider declaration Start -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/s3Slider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#slider').s3Slider({
+                timeOut: 5000
+            });
+        });
+    </script>
+    <!-- s3Slider jQuery plugin - Our works slider declaration End -->
+
+    <script type="text/javascript" src="js/menu.js"></script>    
+    <script type="text/javascript" src="js/clearinput.js"></script>
+    <!-- vscroller jQuery plugin - News Scroller Start -->
+    <script type="text/javascript" src="js/vscroll.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('#news-container').vTicker({
+            speed: 2000,
+            pause: 5000,
+            animation: 'fade',
+            mousePause: true,
+            showItems: 1
+        });
+    });
+    </script>
+    <!-- vscroller jQuery plugin - News Scroller End -->
+    
+    <script type="text/javascript" src="js/uiscripts.js"></script>
+    <!-- fixes for web-kit browsers (Google Chrome - Safari) -->
+    <style type="text/css">
+        <!-- /*
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            .specialForm select{}
+        }
+        */ -->
+    </style>
+    <!--[if lte IE 6]>
+    <script type="text/javascript">
+        /*Load jQuery if not already loaded*/ if(typeof jQuery == 'undefined'){ document.write("<script type=\"text/javascript\"   src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js\"></"+"script>"); var __noconflict = true; }
+        var IE6UPDATE_OPTIONS = {
+            icons_path: "images/ie6update/"
+        }
+    </script>
+    <script type="text/javascript" src="js/ie6update.js"></script>
+    <![endif]-->
+</head>
+<body onload="setEvents('input','textarea')">
+    <div id="container1">
+        <div id="container2">
+            <div id="rightColumn">
+                <a href="#" id="logo"></a>
+                <!-- Menu Start -->
+                <ul class="menu">
+                    <li><a href="#">الاستضافة المشتركة</a></li>
+                    <li><a href="#">السيرفرات الخاصة</a></li>
+                    <li><a href="#">البرامج المكتبية</a></li>
+                    <li><a href="#">خدماتنا</a></li>
+                    <li><a href="#">مواقع الويب الجاهزة</a></li>
+                    <li><a href="#">أعمالنا</a></li>
+                    <li><a href="#">عملاءنا</a></li>
+                    <li><a href="#">وظائف شاغرة</a></li>
+                    <li><a href="#">صفحات إضافية متكررة</a></li>
+                </ul>
+                <!-- Menu End -->
+
+                <!-- Search Domain Start -->
+                <form action="">
+                    <fieldset id="srchDomain" class="specialForm">
+                    <legend>&nbsp;</legend>
+                    <input id="srchDomainInput" class="largTextBox clear-input" value="Check Domain Name Availabilty" /><br />
+                    <select id="srchDomainSelect" class="smallTextBox" size="1" name="domains">
+                        <option value="">.com</option>
+                        <option value="">.net</option>
+                        <option value="">.org</option>
+                    </select>
+                    <input id="srchDomainSubmit" class="button" type="submit" value="&nbsp;" />
+                </fieldset>
+                </form>
+                <!-- Search Domain End -->
+
+                <!-- Hosting Plans Start -->
+                <ul class="hostingMenu">
+                    <li>
+                        <a href="#" id="ddsrvPlan"></a>
+                        <ul class="hostPlanDetails">
+                            <li><span class="data">المساحة:</span><span>100MB</span></li>
+                            <li><span class="data">نقل البيانات:</span><span>5000MB</span></li>
+                            <li><span class="data">قواعد بيانات:</span><span>10</span></li>
+                            <li><span class="data">حسابات البريد:</span><span>10</span></li>
+                            <li><span class="price">200<span class="currency">  ريـال سعودي سنويا </span></span><a href="#" class="more"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" id="shrdPlan"></a>
+                        <ul class="hostPlanDetails">
+                            <li><span class="data">المساحة:</span><span>100MB</span></li>
+                            <li><span class="data">نقل البيانات:</span><span>5000MB</span></li>
+                            <li><span class="data">قواعد بيانات:</span><span>10</span></li>
+                            <li><span class="data">حسابات البريد:</span><span>10</span></li>
+                            <li><span class="price">200<span class="currency">  ريـال سعودي سنويا </span></span><a href="#" class="more"></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" id="wbhstPlan"></a>
+                        <ul class="hostPlanDetails">
+                            <li><span class="data">المساحة:</span><span>100MB</span></li>
+                            <li><span class="data">نقل البيانات:</span><span>5000MB</span></li>
+                            <li><span class="data">قواعد بيانات:</span><span>10</span></li>
+                            <li><span class="data">حسابات البريد:</span><span>10</span></li>
+                            <li><span class="price">200<span class="currency">  ريـال سعودي سنويا </span></span><a href="#" class="more"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Hosting Plans End -->
+            </div>
+            <div id="content">
+                <div id="header">
+                    <!-- start first -->
+                    <div id="first">
+                        <!-- Links Start -->
+                        <div id="links">
+                            <a href="#"><img src="images/dt4it7_12.png" alt="" /></a>
+                            <a href="#"><img src="images/dt4it7_14.png" alt="" /></a>
+                            <a href="#"><img src="images/dt4it7_16.png" alt="" /></a>
+                        </div>
+                        <!-- Links End -->
+                        
+                        <!-- Social Start -->
+                        <div id="social">
+                            <a href="#" id="tweet"></a>
+                            <a href="#" id="mail"></a>
+                            <a href="#" id="rss"></a>
+                        </div>
+                        <!-- Social End -->
+                    </div>
+                    <!-- end first -->
+
+                    <!-- start second -->
+                    <div id="secound">
+                        <!-- Our Works Start -->
+                        <div id="slider">
+                            <ul id="sliderContent">
+                                <li class="sliderImage">
+                                    <a href="#"><img src="data/410/1.jpg" alt="1" /></a>
+                                    <span class="bottom">
+                                        <strong>اسم العمل:</strong>موقع سيارات BMW الشرق الأوسط والأدنى والأقصى.
+                                        <strong>نوع العمل:</strong>تصميم وبرمجة
+                                    </span>
+                                </li>
+                                <li class="sliderImage">
+                                    <a href="#"><img src="data/410/2.jpg" alt="1" /></a>
+                                    <span class="bottom">
+                                        <strong>اسم العمل:</strong>موقع سيارات BMW الشرق الأوسط والأدنى والأقصى.
+                                        <strong>نوع العمل:</strong>تصميم وبرمجة
+                                    </span>
+                                </li>
+                                <li class="sliderImage">
+                                    <a href="#"><img src="data/410/3.jpg" alt="1" /></a>
+                                    <span class="bottom">
+                                        <strong>اسم العمل:</strong>موقع سيارات BMW الشرق الأوسط والأدنى والأقصى.
+                                        <strong>نوع العمل:</strong>تصميم وبرمجة
+                                    </span>
+                                </li>
+                                <li class="sliderImage">
+                                    <a href="#"><img src="data/410/4.jpg" alt="1" /></a>
+                                    <span class="bottom">
+                                        <strong>اسم العمل:</strong>موقع سيارات BMW الشرق الأوسط والأدنى والأقصى.
+                                        <strong>نوع العمل:</strong>تصميم وبرمجة
+                                    </span>
+                                </li>
+                                <li class="sliderImage">
+                                    <a href="#"><img src="data/410/5.jpg" alt="1" /></a>
+                                    <span class="bottom">
+                                        <strong>اسم العمل:</strong>موقع سيارات BMW الشرق الأوسط والأدنى والأقصى.
+                                        <strong>نوع العمل:</strong>تصميم وبرمجة
+                                    </span>
+                                </li>
+                                <li class="clear sliderImage"></li>
+                            </ul>
+                        </div>
+                        <!-- Our Works End -->
+
+                        <!-- Login Start -->
+                        <form action="">
+                            <fieldset id="login" class="specialForm">
+                                <legend>&nbsp;</legend>
+                                <input id="loginUser" class="largTextBox clear-input" value="اسم العميل" /><br />
+                                <input id="loginPass" class="middleTextBox clear-input" value="كلمة المرور" />
+                                <input id="loginSubmit" type="submit" value="&nbsp;" />
+                            </fieldset>
+                        </form>
+                        <!-- Login End -->
+                        <a href="#" id="support"><img src="images/dt4it7_43.jpg" alt="" /></a>
+                    </div>
+                    <!-- end second -->
+                </div>
+
+                <!-- start leftContent -->
+                <div id="leftContent">
+                    <!-- start latestNews -->
+                    <div id="latestNews">
+                        <div id="news-container">
+                            <ul>
+                                <li><a href="#">4) جزء من نص خبر يظهر كرابط، معه صورة أو بدون الصورة، ويتبدل عن طريق جي كويري إفيكت...4) جزء من نص خبر يظهر كرابط، معه صورة أو بدون الصورة، ويتبدل عن طريق جي كويري إفيكت...4) جزء من نص خبر يظهر كرابط، معه صورة أو بدون الصورة، ويتبدل عن طريق جي كويري إفيكت...</a></li>
+                                <li><a href="#">1) جزء من نص خبر يظهر كرابط، معه صورة أو بدون الصورة، ويتبدل عن طريق جي كويري إفيكت...</a></li>
+                                <li><a href="#"><img src="images/person.png" alt="" />2) جزء من نص خبر يظهر كرابط، معه صورة أو بدون الصورة، ويتبدل عن طريق جي كويري إفيكت...</a></li>
+                                <li><a href="#">3) جزء من نص خبر يظهر كرابط، معه صورة أو بدون الصورة، ويتبدل عن طريق جي كويري إفيكت...</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end latestNews -->
+
+                    <!-- start whyUs ? -->
+                    <div id="whyUs">
+                        <span>هنا يظهر مربع لماذا نحن؟ وهو عبارة عن مربع نصي أكتب فيه ما أشاء،  وهو عبارة عن مربع نصي أكتب فيه ما أشاء بهذا المربع</span>
+                    </div>
+                    <!-- end whyUs ? -->
+
+                    <!-- start ourClients -->
+                    <div id="ourClients">
+                        <a href="#"><img src="data/logo.jpg" alt="" /></a><br />
+                        <span>اسم العميل :</span>مؤسسة بن سعيدان
+                        <span>نوع العمــــل :</span>تصميم وبرمجة موقع
+                    </div>
+                    <!-- end ourClients -->
+
+                    <!-- Ads Area Start -->
+                    <a href="#" class="ad2"><img src="images/sAd.jpg" alt="" /></a>
+                    <!-- Ads Area End -->
+                </div>
+                <!-- end leftContent -->
+                <div id="middleContent">
+                    <!-- Bread Crumb Start -->
+                    <div class="breadCrumb">
+                        <a class="home" href="#"></a>
+                        <span>عنوان القسم الرئيسي</span>
+                        <span><a href="#">القسم الفرعي 1</a></span>
+                        <span class="current">القسم الفرعي 2</span>
+                    </div>
+                    <!-- Bread Crumb End -->
+                    <!-- Software Block Start -->
+                    <div class="block ourSoftware">
+                        <div class="title"><a href="#">من برامجنا</a></div>
+                        <div class="content">
+                            <img src="data/pack.jpg" alt="" class="img" />
+                            <a href="#">برنامج الشيك الماسي</a>
+                            <div class="text">لوريم إيبسوم  هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى)  ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة ..</div>
+                            <a href="#"><img src="images/getsoft.png" alt="اطلب البرنامج" /></a>
+                            <a href="#"><img src="images/moresoft.png" alt="مزيد من البرامج" /></a>
+                        </div>
+                    </div>
+                    <!-- Software Block End -->
+
+                    <!-- Ads Area Start -->
+                    <a href="#" class="ad1"><img src="images/wAd.jpg" alt="" /></a>
+                    <!-- Ads Area End -->
+
+                    <!-- Default Block Start -->
+                    <div class="block">
+                        <div class="title"><a href="#">عنوان البلوك يظهر هنا</a></div>
+                        <div class="content text">لوريم إيبسوم (Lorem Ipsum) هو ببساطة نص شكلي <img src="data/def01.jpg" alt="" class="img" />(بمعنى أن الغاية هي الشكل وليس المحتوى)  ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. <a href="#">خمسة قرون من الزمن لم تقضي على هذا النص</a>، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق "ليتراسيت" (Letraset) البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل "ألدوس بايج مايكر" (Aldus PageMaker) والتي حوت أيضاً على نسخ من نص لوريم إيبسوم...</div>
+                        <a href="#" class="details"></a>
+                    </div>
+                    <!-- Default Block End -->
+
+                    <!-- Form Start -->
+                    <div class="block">
+                        <div class="title"><a href="#">عنوان الفورم</a></div>
+                        <div class="content">
+                            <form action="">
+                                <fieldset class="form">
+                                    <legend>اسم الفورم</legend><br />
+                                    <label for="name" class="label">الإسم <em>*</em>:</label>
+                                    <input id="name" class="textBox" /><br />
+                                    <label for="password" class="label">كلمة السر :</label>
+                                    <input id="password" type="password" class="textBox" /><br />
+                                    <label for="email" class="label">البريد الإلكترونى :</label>
+                                    <input id="email" class="textBox" /><br />
+                                    <label for="comment" class="label">التعليق <em>*</em>:</label>
+                                    <textarea id="comment" rows="0" cols="0" class="textArea"></textarea><br />
+
+                                    <label class="label">النوع :</label>
+                                    <input type="radio" id="sexMale" value="" /><label for="sexMale">ذكر</label>
+                                    <input type="radio"  id="sexFemale" value="" /><label for="sexFemale">أنثى</label><br />
+
+                                    <label class="label">اختيارات :</label>
+                                    <input type="checkbox" id="chk1" value="" /><label for="chk1">الاختيار الأول</label>
+                                    <input type="checkbox" id="chk2" value="" /><label for="chk2">الاختيار الثانى</label>
+                                    <input type="checkbox" id="chk3" value="" /><label for="chk3">الاختيار الثالث</label><br />
+
+                                    <label class="label">اختار :</label>
+                                    <select dir="rtl" size="1" name="country">
+                                        <option value=""> -- اختر -- </option>
+                                        <option value="Syria">سوريا</option>
+                                        <option value="Algeria">الجزائر</option>
+                                        <option value="Bahrain">البحرين</option>
+                                        <option value="Djibouti">جيبوتي</option>
+                                        <option value="Egypt">مصر</option>
+                                        <option value="Ethiopia">الحبشة</option>
+                                        <option value="Eritrea">أريتريا</option>
+                                        <option value="Iran">إيران</option>
+                                        <option value="Iraq">العراق</option>
+                                        <option value="Jordan">الأردن</option>
+                                        <option value="Kuwait">الكويت</option>
+                                        <option value="Lebanon">لبنان</option>
+                                        <option value="Libya">ليبيا</option>
+                                        <option value="Mali">دولة مالي</option>
+                                        <option value="Mauritania">موريتانيا</option>
+                                        <option value="Morocco">المغرب</option>
+                                        <option value="Oman">عُمان</option>
+                                        <option value="Palestine">فلسطين</option>
+                                        <option value="Qatar">قطر</option>
+                                        <option value="Saudi Arabia">السـعودية</option>
+                                        <option value="Somalia">الصومال</option>
+                                        <option value="Sudan">السودان</option>
+                                        <option value="Tunisia">تونس</option>
+                                        <option value="United Arab Emirates">الامارات العربية المتحدة</option>
+                                        <option value="Yemen">اليمن</option>
+                                    </select><br />
+                                    <input id="submit" type="submit" value="أدخل" class="button" />
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Form End -->
+                    <!-- Data Grid Start -->
+                    <table class="dataGrid" cellspacing="0" cellpadding="0" border="0">
+                    <caption>نتائج البحث</caption>
+                        <tr>
+                            <th>العنوان الأول العنوان الأول</th>
+                            <th>العنوان الثاني العنوان الثاني</th>
+                            <th>العنوان الثالث العنوان الثالث</th>
+                        </tr>
+                        <tr>
+                            <td><a href="#">عنوان المقال عنوان المقال عنوان المقال </a></td>
+                            <td>بيانات بيانات بيانات</td>
+                            <td>بيانات بيانات بيانات</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <div class="resultsCount">النتائج من 0 الى 1&nbsp;&nbsp;من أصل&nbsp;&nbsp;1 نتيجة</div>
+                                <div class="pages"><a href="#" class="nextPrev">&lt;&lt;</a>&nbsp;<a href="#">1</a><a href="#" class="current">2</a><a href="#">3</a>&nbsp;<a href="#" class="nextPrev">&gt;&gt;</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- Data Grid End -->
+                </div>
+                <!-- footer Start -->
+                <div id="footer">
+                    <div id='partners'><img src='images/dt4it7_102.jpg' alt='partners' /></div>
+                    <span id='copyrights'>جميع الحقوق محفوظة لمؤسسة التكنولوجيا الماسية © 2011</span>
+                    <pre><a id="css" href="#"><img src="images/css.png" alt="valid css 3" /></a>    <a id="xhtml" href="#"><img src="images/xhtml.png" alt="valid xhtml 1.0" /></a></pre>
+                </div>
+                <!-- footer End -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

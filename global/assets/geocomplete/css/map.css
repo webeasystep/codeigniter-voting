@@ -1,0 +1,10 @@
+.map_canvas {
+  height: 400px;
+  width : 400px;
+}
+
+#multiple li {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
