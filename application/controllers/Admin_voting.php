@@ -25,7 +25,7 @@ class admin_voting extends Front_end
     public function votes_list()
     {
         $data['categories'] = $this->voting->get_categories();
-        $this->view('content/voting_list', $data);
+        $this->view('content/votes_list', $data);
     }
 
     /**
@@ -38,8 +38,11 @@ class admin_voting extends Front_end
         if ($this->form_validation->run() == false) {
             $this->view('content/voting_new');
         } else {
+            // choices sent by the form
             $fields = $this->input->post('fields');
+            // remove empty choices,order every choice by chars from A To Z
             $orderd_data = $this->array_combine2($fields);
+
             $this->voting->create($orderd_data);
             $this->session->set_flashdata('success_msg', 'Vote Succesfully Created');
             redirect('admin_voting/votes_list/');
