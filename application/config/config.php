@@ -15,7 +15,7 @@ $config['modules_locations'] = array(
 |	http://example.com/
 |  
 */
-$config['base_url']	= "http://localhost/codeigniter_vote/";
+$config['base_url']	= "http://localhost/codeigniter-voting/";
 /*
 |--------------------------------------------------------------------------
 | Index File
