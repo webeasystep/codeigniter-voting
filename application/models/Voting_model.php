@@ -8,7 +8,7 @@ class Voting_model extends CI_Model
         parent::__construct();
     }
 
-    /* This function create new category. */
+    /* This function create new vote. */
 
     function create($orderd_data)
     {
@@ -19,7 +19,6 @@ class Voting_model extends CI_Model
            }
         $this->db->insert('ci_voting');
 
-       // $this->db->insert_batch('ci_voting',$insert);
 
     }
 
@@ -41,7 +40,7 @@ class Voting_model extends CI_Model
     }
 
 
-    /* This function delete categor of new from database. */
+    /* This function delete votes of new from database. */
 
     function delete($id)
     {
@@ -80,9 +79,9 @@ class Voting_model extends CI_Model
        $result=$this->db->get('ci_voting');
        return $result->row();
     }
-    /*  This function get all categories of news from database sort by order asc.*/
+    /*  This function get all votes of news from database sort by order asc.*/
 
-    function get_categories()
+    function get_votes()
     {
         $this->db->order_by('dv_id', 'asc');
         $result=$this->db->get('ci_voting');

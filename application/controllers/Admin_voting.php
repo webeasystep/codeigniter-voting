@@ -24,7 +24,7 @@ class admin_voting extends Front_end
      */
     public function votes_list()
     {
-        $data['categories'] = $this->voting->get_categories();
+        $data['categories'] = $this->voting->get_votes();
         $this->view('content/votes_list', $data);
     }
 

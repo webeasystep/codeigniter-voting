@@ -52,15 +52,6 @@ class Voting extends Front_end
     }
 
 
-    function result_view($id)
-    {
-        $data['votes'] = $this->voting_counter->result($id);
-        $data = $this->voting_counter->getNumVoting($id);
-        $data['mainTotal'] = $data['total'];
-        $data['rows'] = $this->voting_counter->result($id);
-
-        $this->view('content/vote_detail', $data);
-    }
 
 }
 

@@ -57,7 +57,7 @@ class Voting_counter_model extends CI_Model
 		}
 	}
 
-	/*  This function get  result of specified voting by join the voting table and dept_voting table .*/
+	/*  This function get  result of specified voting by join the ci_voting table and ci_voting_counter table .*/
 
 	function result($id)
 	{
