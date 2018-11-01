@@ -1,6 +1,8 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /* @property voting_counter_model $voting_counter */
+require_once APPPATH . 'core/Front_end.php';
+
 class Voting extends Front_end
 {
 

@@ -20,7 +20,7 @@
 <body>
 
 <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-    <a class="navbar-brand" href="#">Phpword library latest</a>
+    <a class="navbar-brand" href="#">AJAX Voting with codeigniter</a>
     <ul class="nav navbar-nav">
         <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>

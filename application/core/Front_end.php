@@ -16,7 +16,7 @@ class Front_end extends CI_Controller {
      */
 
     function __construct() {
-        parent::__construct();        
+        parent::__construct();
     }
 
 
@@ -55,7 +55,7 @@ class Front_end extends CI_Controller {
     /**
      * present master page includes header and footer
      * @param string $main_containt
-     * @param array $data 
+     * @param array $data
      */
      function view($main_containt, $data = null) {
         $this->load->view('theme/header');
@@ -64,7 +64,7 @@ class Front_end extends CI_Controller {
     }
 
     /**
-     * give it the right string and it will 
+     * give it the right string and it will
      * @param string $right
      * @return void
      */
